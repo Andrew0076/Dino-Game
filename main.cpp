@@ -27,7 +27,7 @@ class Fps
         Fps()
         :fps()
         {
-            if(fps.font.loadFromFile("rsrc/Fonts/font.ttf"))
+            if(fps.font.loadFromFile("rsrc/Fonts/Font.ttf"))
             {
                 fps.text.setFont(fps.font);
             }
